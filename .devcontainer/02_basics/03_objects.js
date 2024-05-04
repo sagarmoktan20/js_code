@@ -14,7 +14,7 @@ const mysym=Symbol("key1")
 const jsuser={
     name:"sagar",//here we have key value pair where key i.e name is taken implicitly as a string by js
     age:18,
-        [mysym]:"mykey1",//it does show any warning or error even when we declare without [] but when u print its type is shows string which should have been symbol
+        [mysym]:"mykey1",//it doesnt show any warning or error even when we declare without [] but when u print its type is shows string which should have been symbol
     email:"sagar@gmail.com",
     "full name":"sagar moktan",
     lastlogin:["monday","friday"]
